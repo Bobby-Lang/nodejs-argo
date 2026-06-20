@@ -39,9 +39,9 @@ jobs:
           push: true
           platforms: linux/amd64,linux/arm64
           tags: |
-            ghcr.io/bobby-lang/dcdeploy9527:26
+            ghcr.io/bobby-lang/nodejs-argo:26
           labels: |
-            org.opencontainers.image.source=https://github.com/bobby-lang/dcdeploy9527
+            org.opencontainers.image.source=https://github.com/bobby-lang/nodejs-argo
             org.opencontainers.image.description=HTTP Server
             org.opencontainers.image.licenses=MIT
           cache-from: type=gha
