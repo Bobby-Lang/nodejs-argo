@@ -39,7 +39,7 @@ jobs:
           push: true
           platforms: linux/amd64,linux/arm64
           tags: |
-            ghcr.io/bobby-lang/dcdeploy9527:2026
+            ghcr.io/bobby-lang/dcdeploy9527:26
           labels: |
             org.opencontainers.image.source=https://github.com/bobby-lang/dcdeploy9527
             org.opencontainers.image.description=HTTP Server
